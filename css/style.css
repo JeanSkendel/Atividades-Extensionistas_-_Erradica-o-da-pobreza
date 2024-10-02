@@ -22,6 +22,7 @@ li a {
     padding: 14px 16px;
     margin: 0 0.7px;
     text-decoration: none;
+    font-size: clamp(10px, 2vw, 15px);
 }
 
 /*Verificar se não foi ativo*/
@@ -42,7 +43,7 @@ li a:hover:not(.active) {
 /*Mudando estilo do tabela*/
 .table-container {
     display: flex;
-    margin: 0 50px;
+    margin: 0 30px;
     padding: 30px;
     justify-content: center;
     align-items: center;
@@ -67,4 +68,13 @@ li a:hover:not(.active) {
 /*Deixando espaço nos input*/
 input {
     margin: 5px 10px;
+}
+
+.image_site {
+    text-align: center;
+    display: block;
+    /* Faz a imagem se comportar como um bloco */
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
 }
