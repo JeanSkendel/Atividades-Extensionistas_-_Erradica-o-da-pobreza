@@ -70,11 +70,17 @@ input {
     margin: 5px 10px;
 }
 
-.image_site {
+.image_and_video_site {
     text-align: center;
     display: block;
     /* Faz a imagem se comportar como um bloco */
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
     height: auto;
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
